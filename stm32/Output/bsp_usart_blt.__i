@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS -I..\..\Libraries\FWlib\inc -I..\..\User -I..\..\User\flash -I..\..\User\font -I..\..\User\lcd -I..\..\User\RC522 -I..\..\User\SysTick -I..\..\User\usart -I..\..\User\pwm -I..\..\User\delay -I..\..\User\rfid -I..\..\User\usart
+-I C:\Users\27643\Desktop\blue\Project\RVMDK£¨uv5£©\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\..\output\bsp_usart_blt.o --omf_browse ..\..\output\bsp_usart_blt.crf --depend ..\..\output\bsp_usart_blt.d "..\..\User\usart\bsp_usart_blt.c"
